@@ -1,0 +1,137 @@
+.section {
+    padding: 20px 0 10px 130px  ;
+    background: url("../../images/main-back.png");
+    background-size: cover;
+}
+.content > p {
+    margin: 120px 0 30px 10px;
+    width: 80%;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #0C0C0C;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+    width: 90%;
+}
+.item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    background: #C7D6FF;
+    box-shadow: 0px 0px 43px 39px #C7D6FF inset, 0px 0px 48px 42px #205BF2 inset;
+    width: 360px;
+    height: 520px;
+}
+.box {
+    width: 320px;
+    height: 480px;
+    border-radius: 40px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img {
+    margin: 40px 0; 
+}
+
+.box h2, .box p {
+    text-align: center; 
+    color: #0C0C0C;
+}
+
+.pic {
+    position: relative;
+    width: 90%;
+    height: 240px;
+    border-radius: 40px;
+    background: #71B2FF;
+    margin: 200px 0px 10px 0px;
+}
+  
+.pic > .img:first-child {
+    position: absolute;
+    top: -60%; 
+}
+.pic > .img:nth-child(2n) {
+    position: absolute;
+    top: -70%; 
+    left: 12%;
+}
+.pic > .img:nth-child(3n) {
+    position: absolute;
+    top: -60%; 
+    left: 26.5%;
+}
+.info_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 40px 210px;
+}
+.info_block h1 {
+    margin-bottom: 0px;
+}
+.blocks {
+    display: flex;
+    margin: 20px -60px 0 0;
+}
+.block {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 30px 0;
+    width: 190px;
+    height: 65px;
+    border-radius: 32px;
+    background: rgba(0, 77, 168, 0.78);
+   
+}
+.block > p, strong{
+    color: #fff;
+}
+
+hr {
+    margin: 70px 0 30px 0;
+    width: 90%;
+    height: 2px;
+    background: #97C7FF;
+}
+.footer {
+    padding: 10px;
+}
+  
+.column {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+  
+h4 {
+    margin-bottom: 10px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+li {
+    margin-bottom: 5px;
+}
+  
+.bottom {
+    margin: 100px 200px 0 0;
+    text-align: center;
+}
+  
+  
+
+  
