@@ -14,7 +14,8 @@
 .box {
   width: 500px;
   height: 500px;
-  background: cyan;
+  background: #5BA6FF
+   linear-gradient( #1D6DCC 58%, #388AEB 100%, #004DA8 2%);
   position: relative;
   border-radius: 50%;
   overflow: hidden;
@@ -70,8 +71,11 @@
 
 .logo > p {
   margin-left: 10px;
+  color: #fff;
 }
-
+.logo > h1 {
+  color: #fff;
+}
 .logo {
   display: flex;
   flex-direction: column;

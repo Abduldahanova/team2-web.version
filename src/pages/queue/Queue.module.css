@@ -1,0 +1,108 @@
+.main {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.section {
+    display: flex;
+    padding: 20px 0 10px 120px ;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+}
+.choice_block {
+    margin-bottom: 10px;
+    width: 320px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--unnamed, #004DA8);
+}
+.choice_block > h2 {
+    text-align: center;
+    padding: 20px 0 20px 0 ;
+    border-bottom: 1px solid rgba(189, 219, 255, 0.72);
+    
+}
+.liner {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(189, 219, 255, 0.72);
+}
+.liner > h2 {
+    padding: 10px;
+}
+.lupa {
+    display: flex;
+    width: 80%;
+    height: 60px;
+    padding: 18px 78px 18px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--unnamed, #004DA8);
+    background: var(--unnamed, #FFF);
+    margin: 0 0 10px 30px ;
+}
+.block {
+    display: inline-flex;
+    width: 70%;
+    padding: 16px 16px 16px 24px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 30px;
+    border-radius: 18px;
+    border: 1px solid var(--unnamed, #004DA8);
+}
+
+
+.type {
+    display: inline-flex;
+    padding: 7px 12px 6px 11px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    border: 1px solid var(--unnamed, #004DA8);
+    margin-left: 30px;
+    cursor: pointer;
+}
+.type:hover {
+    background: var(--unnamed, #004DA8);
+    color: #fff;
+}
+.show_block {
+    width: 320px;
+    height: 697px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--unnamed, #004DA8);
+    padding: 20px 0 20px 0px;
+    cursor: pointer;
+}
+.text_content {
+    padding: 20px;
+    border-bottom: 1px solid rgba(189, 219, 255, 0.72);
+}
+.status > img {
+    height: 100%;
+    margin-top: 5px;
+}
+.text_content > p:last-child{
+    display: flex;
+    justify-content: space-around;
+}
+.address {
+    color: var(--unnamed, #8F8F8F);
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;;
+    margin: 5px;
+}
+.google-map-container {
+    display: flex;
+    flex-direction: column;
+}
+
+

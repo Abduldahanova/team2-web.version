@@ -1,0 +1,66 @@
+.section {
+    padding: 20px;
+    background: url("../../images/WEB\ Регистрация\ 2.png") center center / cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.container {
+    width: 800px;
+    height: 432px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 4px 59px -1px rgba(47, 142, 255, 0.32);
+    backdrop-filter: blur(60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.number {
+    width: 288px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--unnamed, #004DA8);
+    background: #FFF;
+}
+.button {
+    width: 288px;
+    height: 48px;
+    padding: 11px 32px;
+    border-radius: 18px;
+    border: 1px solid var(--unnamed, #8F8F8F);
+    background: var(--unnamed, #FFF);
+    color: var(--unnamed, #8F8F8F);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    margin-top: 40px;
+}
+.checkboxContainer {
+    color: var(--unnamed, #8F8F8F);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+.buttonActive {
+    background-color: blue;
+    color: white;
+}
+.labelActive {
+    color: blue;
+}
+  
